@@ -536,7 +536,8 @@ double twist = twistratio.getDouble(1.0);
       climbDoublePCM.set(kOff);
     }
 
-    /** This controls the automatic operation of the elevator to load a picked up ball
+    /** This controls the automatic operation of the elevator to load a picked up ball.
+     * This is one way of doing it.  It has been disabled.  See If statements below.
      * 
   
     switch(elvstate)
